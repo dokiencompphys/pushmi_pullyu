@@ -20,8 +20,8 @@ def main():
 	
 	init=1
 	
-	alpha= 0.3*np.ones(N) #np.random.random_sample(N)+0.01
-	beta = 1.2*np.ones(N) #np.random.random_sample(N)+0.01
+	alpha= np.random.random_sample(N)+0.01
+	beta = np.random.random_sample(N)+0.01
 
 	print("i	alpha		beta		t_move		trest+ tmove		sum all waiting times		observation time")
 	for i in range(N):
